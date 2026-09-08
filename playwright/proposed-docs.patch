@@ -1,0 +1,25 @@
+diff --git a/README.md b/README.md
+index ddea67c..6882e66 100644
+--- a/README.md
++++ b/README.md
+@@ -218,6 +218,20 @@ For more information, see the [Factory MCP documentation](https://docs.factory.a
+ 
+ </details>
+ 
++<details>
++<summary>FLUJO</summary>
++
++To attach an existing test browser over CDP from [FLUJO](https://flujo.com.co):
++
++1. Start a Chromium-family browser with remote debugging enabled and a separate test profile. Note its local CDP endpoint.
++2. In a working directory, run `npm install @playwright/mcp@latest`.
++3. In FLUJO, open **Connected Apps** > **Connect App** > **I'm an expert**. In **Configure & Test**, name the server `playwright` and set **MCP server root path** to that working directory.
++4. Select **Standard IO** and set **Run command** to `npx`. Add three separate **Arguments**: `-y`, `@playwright/mcp@latest`, and `--cdp-endpoint=http://127.0.0.1:9222` (replace the endpoint with your browser's).
++5. Click **3) Test run**, then **Add server** after the MCP handshake succeeds.
++6. Open the saved server's **Tools** tab. Test `browser_navigate` with a local test page URL, then `browser_snapshot` with its optional fields blank to display the accessibility snapshot in FLUJO.
++
++</details>
++
+ <details>
+ <summary>Gemini CLI</summary>
+ 

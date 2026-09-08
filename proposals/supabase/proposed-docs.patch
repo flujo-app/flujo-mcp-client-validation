@@ -1,0 +1,64 @@
+diff --git a/packages/ui-patterns/src/McpUrlBuilder/clients.data.ts b/packages/ui-patterns/src/McpUrlBuilder/clients.data.ts
+index fe7c79f..8335f67 100644
+--- a/packages/ui-patterns/src/McpUrlBuilder/clients.data.ts
++++ b/packages/ui-patterns/src/McpUrlBuilder/clients.data.ts
+@@ -389,6 +389,11 @@ export const MCP_CLIENT_DATA: McpClientData[] = [
+       return `https://kiro.dev/launch/powers/${power}`
+     },
+   },
++  {
++    key: 'flujo',
++    label: 'FLUJO',
++    externalDocsUrl: 'https://github.com/mario-andreschak/FLUJO#readme',
++  },
+   {
+     key: 'claude-ai',
+     label: 'Claude.ai',
+@@ -472,7 +477,7 @@ export const MCP_CLIENT_GROUPS = [
+   },
+   {
+     heading: 'Web Clients',
+-    keys: ['claude-ai', 'chatgpt', 'goose'],
++    keys: ['claude-ai', 'chatgpt', 'goose', 'flujo'],
+   },
+   {
+     heading: 'IDE',
+diff --git a/packages/ui-patterns/src/McpUrlBuilder/clients.instructions.md.tsx b/packages/ui-patterns/src/McpUrlBuilder/clients.instructions.md.tsx
+index a73704c..482a55c 100644
+--- a/packages/ui-patterns/src/McpUrlBuilder/clients.instructions.md.tsx
++++ b/packages/ui-patterns/src/McpUrlBuilder/clients.instructions.md.tsx
+@@ -301,6 +301,34 @@ export const MCP_CLIENT_INSTRUCTIONS: Record<string, McpClientInstructions> = {
+       </>
+     ),
+   },
++  flujo: {
++    primary: ({ isPlatform, url }) => (
++      <>
++        <paragraph>
++          In FLUJO, open <strong>Connected Apps</strong> &gt; <strong>Connect App</strong> &gt;{' '}
++          <strong>I have connection details</strong> &gt; <strong>At a remote URL</strong>.
++        </paragraph>
++        <paragraph>
++          Paste this server URL, including its query parameters, then select{' '}
++          <strong>Connect</strong>:
++        </paragraph>
++        <code lang="http" value={url} />
++        {isPlatform ? (
++          <paragraph>
++            Select <strong>Continue to setup</strong>, then <strong>Save and authenticate</strong>
++            . Sign in to Supabase and authorize the organization that contains your project.
++          </paragraph>
++        ) : (
++          <paragraph>
++            After the connection test passes, select <strong>Update server</strong>.
++          </paragraph>
++        )}
++        <paragraph>
++          Open the saved server's <strong>Tools</strong> tab to check that its tools are available.
++        </paragraph>
++      </>
++    ),
++  },
+   kiro: {
+     deepLinkDescription: (
+       <paragraph>

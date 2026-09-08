@@ -1,0 +1,108 @@
+{
+  "at": "2026-09-08T04:37:11.231Z",
+  "action": {
+    "id": 3,
+    "result": {
+      "result": {
+        "type": "object",
+        "value": {}
+      },
+      "exceptionDetails": {
+        "exceptionId": 6,
+        "text": "Uncaught (in promise) Error: tool picker missing",
+        "lineNumber": 1,
+        "columnNumber": 88,
+        "scriptId": "346",
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "346",
+              "url": "",
+              "lineNumber": 0,
+              "columnNumber": 87
+            },
+            {
+              "functionName": "",
+              "scriptId": "346",
+              "url": "",
+              "lineNumber": 0,
+              "columnNumber": 417
+            }
+          ]
+        },
+        "exception": {
+          "type": "object",
+          "subtype": "error",
+          "className": "Error",
+          "description": "Error: tool picker missing\n    at <anonymous>:1:88\n    at <anonymous>:1:418",
+          "objectId": "3842636357289171833.4.2"
+        }
+      }
+    }
+  },
+  "state": {
+    "id": 4,
+    "result": {
+      "result": {
+        "type": "string",
+        "value": "!\nThe workspace hit a snag\n\nYour data is safe. Reload FLUJO to reconnect the interface to the local runtime.\n\nReload workspace"
+      }
+    }
+  },
+  "events": [
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "error",
+        "args": [
+          {
+            "type": "object",
+            "subtype": "error",
+            "className": "Error",
+            "description": "Error: Minified React error #185; visit https://react.dev/errors/185 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n    at ry (http://localhost:4203/_next/static/chunks/4bd1b696-df4c0fb946159b6a.js:1:32375)\n    at rh (http://localhost:4203/_next/static/chunks/4bd1b696-df4c0fb946159b6a.js:1:31899)\n    at ow (http://localhost:4203/_next/static/chunks/4bd1b696-df4c0fb946159b6a.js:1:64867)\n    at ok (http://localhost:4203/_next/static/chunks/4bd1b696-df4c0fb946159b6a.js:1:64470)\n    at http://localhost:4203/_next/static/chunks/2496-e24197f8d2d02168.js:1:7809\n    at ik (http://localhost:4203/_next/static/chunks/4bd1b696-df4c0fb946159b6a.js:1:92679)\n    at ug (http://localhost:4203/_next/static/chunks/4bd1b696-df4c0fb946159b6a.js:1:116718)\n    at uh (http://localhost:4203/_next/static/chunks/4bd1b696-df4c0fb946159b6a.js:1:116380)\n    at ug (http://localhost:4203/_next/static/chunks/4bd1b696-df4c0fb946159b6a.js:1:116763)\n    at uh (http://localhost:4203/_next/static/chunks/4bd1b696-df4c0fb946159b6a.js:1:116380)",
+            "objectId": "3842636357289171833.4.1"
+          }
+        ],
+        "executionContextId": 4,
+        "timestamp": 1788842199482.062,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "d",
+              "scriptId": "6",
+              "url": "http://localhost:4203/_next/static/chunks/3794-3dbd06ff79d82322.js",
+              "lineNumber": 0,
+              "columnNumber": 89622
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "error",
+        "args": [
+          {
+            "type": "string",
+            "value": "[2026-09-08T04:36:39.482Z] [frontend/components/AppWrapper] AppWrapper error boundary caught an error::\n{\n  \"name\": \"Error\",\n  \"message\": \"Minified React error #185; visit https://react.dev/errors/185 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\",\n  \"stack\": \"Error: Minified React error #185; visit https://react.dev/errors/185 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\\n    at ry (http://localhost:4203/_next/static/chunks/4bd1b696-df4c0fb946159b6a.js:1:32375)\\n    at rh (http://localhost:4203/_next/static/chunks/4bd1b696-df4c0fb946159b6a.js:1:31899)\\n    at ow (http://localhost:4203/_next/static/chunks/4bd1b696-df4c0fb946159b6a.js:1:64867)\\n    at ok (http://localhost:4203/_next/static/chunks/4bd1b696-df4c0fb946159b6a.js:1:64470)\\n    at http://localhost:4203/_next/static/chunks/2496-e24197f8d2d02168.js:1:7809\\n    at ik (http://localhost:4203/_next/static/chunks/4bd1b696-df4c0fb946159b6a.js:1:92679)\\n    at ug (http://localhost:4203/_next/static/chunks/4bd1b696-df4c0fb946159b6a.js:1:116718)\\n    at uh (http://localhost:4203/_next/static/chunks/4bd1b696-df4c0fb946159b6a.js:1:116380)\\n    at ug (http://localhost:4203/_next/static/chunks/4bd1b696-df4c0fb946159b6a.js:1:116763)\\n    at uh (http://localhost:4203/_next/static/chunks/4bd1b696-df4c0fb946159b6a.js:1:116380)\"\n}"
+          }
+        ],
+        "executionContextId": 4,
+        "timestamp": 1788842199483.12,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "t",
+              "scriptId": "9",
+              "url": "http://localhost:4203/_next/static/chunks/5212-a971d359522614b8.js",
+              "lineNumber": 1,
+              "columnNumber": 229
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

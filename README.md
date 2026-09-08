@@ -35,3 +35,10 @@ No host browser, host files, or host credentials were used for installation or t
 - [Firecrawl](firecrawl/README.md): keyless connection and search passed; scrape form crashes before invocation, so validation remains partial.
 
 - [Graphiti](graphiti/README.md): local HTTP handshake, FalkorDB status and seeded-episode retrieval passed with zero model API calls.
+
+- [GitHub MCP](github-mcp/README.md): authenticated read-only handshake and exact public-file retrieval passed using a secret Bearer header; interactive OAuth and PAT-specific behavior were not tested.
+- [Playwright MCP](playwright/README.md): navigation and snapshots passed; click parameter form crashes before invocation.
+
+## Prepared proposals
+
+[Supabase](proposals/supabase/README.md): concrete client-selector draft with scoped URL and React/Markdown checks. Hosted authentication is untested.
