@@ -23,3 +23,9 @@ No host browser, host files, or host credentials were used for installation or t
 ## Desktop Commander — 2026-09-08 UTC
 
 [Validation record and screenshots](desktop-commander/README.md): FLUJO 3.45.2 connected over stdio, discovered 26 tools, and list_directory returned the expected disposable fixture.
+
+## Additional checks — 2026-09-08 UTC
+
+- [Exa](exa/README.md): both hosted tools passed through FLUJO.
+- [Serena](serena/README.md): local HTTP connection and Python symbol lookup passed.
+- [Cloudflare Documentation MCP](cloudflare/README.md): hosted connection and documentation search passed.
