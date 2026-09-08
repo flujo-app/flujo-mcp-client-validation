@@ -19,3 +19,7 @@ Screenshots: [connection test](context7/connection-test.png), [saved connection]
 
 No host browser, host files, or host credentials were used for installation or these tests.
 
+
+## Desktop Commander — 2026-09-08 UTC
+
+[Validation record and screenshots](desktop-commander/README.md): FLUJO 3.45.2 connected over stdio, discovered 26 tools, and list_directory returned the expected disposable fixture.
