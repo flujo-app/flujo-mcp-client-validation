@@ -1,0 +1,39 @@
+{
+  "verified_at_utc": "2026-09-08T05:19:55.252Z",
+  "runtime": "original prebuilt flujo-ai3.45.2; reused public runtime with fresh Tavily data/home/browser profile",
+  "node": "22.22.0",
+  "chromium": "152.0.7977.82",
+  "upstream_commit": "248dc9e3e385305ad3281120284ff662af4b5940",
+  "transport": "Streamable HTTP",
+  "url": "https://mcp.tavily.com/mcp/",
+  "public_header": {
+    "name": "X-Tavily-Access-Mode",
+    "value": "keyless"
+  },
+  "initial_handshake": "passed",
+  "reconnect_test": "passed",
+  "tools_discovered": [
+    "tavily_search",
+    "tavily_extract",
+    "tavily_crawl",
+    "tavily_map",
+    "tavily_research"
+  ],
+  "tools_called": [
+    "tavily_search"
+  ],
+  "tool_call_count": 1,
+  "submitted_query": "site:modelcontextprotocol.io MCP clients",
+  "max_results": 1,
+  "search_depth": "server default (basic)",
+  "response_auth_mode": "keyless",
+  "result_count": 1,
+  "result_url": "https://modelcontextprotocol.io/docs/2026-07-28/learn/client-concepts",
+  "request_id": "faa2b290-e648-4244-8902-3f4fa14d7135",
+  "api_key_used": false,
+  "oauth_or_account_used": false,
+  "extraction_tested": false,
+  "keyed_tools_tested": false,
+  "diff_check_exit": 0,
+  "patch_sha256": "804eb359f1cd74e7e1f63d7777f4697ada7e77d39443e7a3178377caed40132d"
+}

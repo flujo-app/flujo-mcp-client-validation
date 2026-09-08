@@ -39,6 +39,8 @@ No host browser, host files, or host credentials were used for installation or t
 - [GitHub MCP](github-mcp/README.md): authenticated read-only handshake and exact public-file retrieval passed using a secret Bearer header; interactive OAuth and PAT-specific behavior were not tested.
 - [Playwright MCP](playwright/README.md): navigation and snapshots passed; click parameter form crashes before invocation.
 
+- [Tavily](tavily/README.md): public keyless header, saved connection and one bounded search passed; other tools and authentication modes were not tested.
+
 ## Prepared proposals
 
 [Supabase](proposals/supabase/README.md): concrete client-selector draft with scoped URL and React/Markdown checks. Hosted authentication is untested.
