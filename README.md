@@ -29,3 +29,7 @@ No host browser, host files, or host credentials were used for installation or t
 - [Exa](exa/README.md): both hosted tools passed through FLUJO.
 - [Serena](serena/README.md): local HTTP connection and Python symbol lookup passed.
 - [Cloudflare Documentation MCP](cloudflare/README.md): hosted connection and documentation search passed.
+
+- [FastMCP](fastmcp/README.md): local stdio handshake and integer addition returned 5.
+- [Chrome DevTools](chrome-devtools/README.md): existing Chrome connection, page creation and accessibility snapshot passed.
+- [Firecrawl](firecrawl/README.md): keyless connection and search passed; scrape form crashes before invocation, so validation remains partial.
