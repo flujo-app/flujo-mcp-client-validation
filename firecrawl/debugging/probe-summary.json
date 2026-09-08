@@ -1,0 +1,203 @@
+{
+  "status": "reproduced; no fix proposed",
+  "clientVersion": "3.45.2",
+  "sourceCommit": "1eb55adad24a9c692054b0889473870ca3ed132e",
+  "instrumentationOnly": true,
+  "editorInstances": 27,
+  "firstRemountAfterMs": 24463.299999999814,
+  "observedDurationMs": 38930.700000000186,
+  "events": [
+    {
+      "at": 284480.60000000056,
+      "editor": 1,
+      "configuredRoots": 2,
+      "workspaceRoots": null,
+      "enhanced": false
+    },
+    {
+      "at": 308943.9000000004,
+      "editor": 3,
+      "configuredRoots": 4,
+      "workspaceRoots": null,
+      "enhanced": false
+    },
+    {
+      "at": 309397.7000000002,
+      "editor": 5,
+      "configuredRoots": 6,
+      "workspaceRoots": null,
+      "enhanced": false
+    },
+    {
+      "at": 310163.2000000002,
+      "editor": 7,
+      "configuredRoots": 8,
+      "workspaceRoots": null,
+      "enhanced": false
+    },
+    {
+      "at": 310674.30000000075,
+      "editor": 9,
+      "configuredRoots": 10,
+      "workspaceRoots": null,
+      "enhanced": false
+    },
+    {
+      "at": 311146.30000000075,
+      "editor": 11,
+      "configuredRoots": 12,
+      "workspaceRoots": null,
+      "enhanced": false
+    },
+    {
+      "at": 312044.7000000002,
+      "editor": 13,
+      "configuredRoots": 14,
+      "workspaceRoots": null,
+      "enhanced": false
+    },
+    {
+      "at": 312605.9000000004,
+      "editor": 15,
+      "configuredRoots": 16,
+      "workspaceRoots": null,
+      "enhanced": false
+    },
+    {
+      "at": 313226.5,
+      "editor": 17,
+      "configuredRoots": 18,
+      "workspaceRoots": null,
+      "enhanced": false
+    },
+    {
+      "at": 314158.80000000075,
+      "editor": 19,
+      "configuredRoots": 20,
+      "workspaceRoots": null,
+      "enhanced": false
+    },
+    {
+      "at": 314693.80000000075,
+      "editor": 21,
+      "configuredRoots": 22,
+      "workspaceRoots": null,
+      "enhanced": false
+    },
+    {
+      "at": 315344,
+      "editor": 23,
+      "configuredRoots": 24,
+      "workspaceRoots": null,
+      "enhanced": false
+    },
+    {
+      "at": 316346.9000000004,
+      "editor": 25,
+      "configuredRoots": 26,
+      "workspaceRoots": null,
+      "enhanced": false
+    },
+    {
+      "at": 317147.10000000056,
+      "editor": 27,
+      "configuredRoots": 28,
+      "workspaceRoots": null,
+      "enhanced": false
+    },
+    {
+      "at": 318153.7000000002,
+      "editor": 29,
+      "configuredRoots": 30,
+      "workspaceRoots": null,
+      "enhanced": false
+    },
+    {
+      "at": 318736.2000000002,
+      "editor": 31,
+      "configuredRoots": 32,
+      "workspaceRoots": null,
+      "enhanced": false
+    },
+    {
+      "at": 319062.60000000056,
+      "editor": 33,
+      "configuredRoots": 34,
+      "workspaceRoots": null,
+      "enhanced": false
+    },
+    {
+      "at": 319388.30000000075,
+      "editor": 35,
+      "configuredRoots": 36,
+      "workspaceRoots": null,
+      "enhanced": false
+    },
+    {
+      "at": 319751.80000000075,
+      "editor": 37,
+      "configuredRoots": 38,
+      "workspaceRoots": null,
+      "enhanced": false
+    },
+    {
+      "at": 320262.30000000075,
+      "editor": 39,
+      "configuredRoots": 40,
+      "workspaceRoots": null,
+      "enhanced": false
+    },
+    {
+      "at": 320650.9000000004,
+      "editor": 41,
+      "configuredRoots": 42,
+      "workspaceRoots": null,
+      "enhanced": false
+    },
+    {
+      "at": 321087,
+      "editor": 43,
+      "configuredRoots": 44,
+      "workspaceRoots": null,
+      "enhanced": false
+    },
+    {
+      "at": 321530.10000000056,
+      "editor": 45,
+      "configuredRoots": 46,
+      "workspaceRoots": null,
+      "enhanced": false
+    },
+    {
+      "at": 322216.4000000004,
+      "editor": 47,
+      "configuredRoots": 48,
+      "workspaceRoots": null,
+      "enhanced": false
+    },
+    {
+      "at": 322595.7000000002,
+      "editor": 49,
+      "configuredRoots": 50,
+      "workspaceRoots": null,
+      "enhanced": false
+    },
+    {
+      "at": 322981,
+      "editor": 51,
+      "configuredRoots": 52,
+      "workspaceRoots": null,
+      "enhanced": false
+    },
+    {
+      "at": 323411.30000000075,
+      "editor": 53,
+      "configuredRoots": 54,
+      "workspaceRoots": null,
+      "enhanced": false
+    }
+  ],
+  "errorBoundaryText": "!\nThe workspace hit a snag\n\nYour data is safe. Reload FLUJO to reconnect the interface to the local runtime.\n\nReload workspace",
+  "scrapeToolInvoked": false,
+  "originalChunkSha256": "3a2de283bd61d54ee8b31374a3a01b1b4e045838b91e94ea68123663b6c416a3"
+}

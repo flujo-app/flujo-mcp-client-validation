@@ -1,0 +1,23 @@
+{
+  "clientVersion": "3.45.2",
+  "reproduction": "Saved keyless Firecrawl connection → Tools → select firecrawl_scrape; form briefly renders then app error boundary appears before any tool call. Reproduced twice; Reload workspace recovers.",
+  "error": "React #185: maximum update depth exceeded",
+  "primaryErrorReference": "https://react.dev/errors/185",
+  "searchToolWorks": true,
+  "scrapeToolInvoked": false,
+  "parseToolInvoked": false,
+  "errors": [
+    {
+      "at": "2026-09-08T03:55:28.027Z",
+      "messages": [
+        "Error: Minified React error #185; visit https://react.dev/errors/185 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n    at ry (http://localhost:4200/_next/static/chunks/4bd1b696-df4c0fb946159b6a.js:1:32375)\n    at rh (http://localhost:4200/_next/static/chunks/4bd1b696-df4c0fb946159b6a.js:1:31899)\n    at ow (http://localhost:4200/_next/static/chunks/4bd1b696-df4c0fb946159b6a.js:1:64867)\n    at ok (http://localhost:4200/_next/static/chunks/4bd1b696-df4c0fb946159b6a.js:1:64470)\n    at http://localhost:4200/_next/static/chunks/2496-e24197f8d2d02168.js:1:7809\n    at ik (http://localhost:4200/_next/static/chunks/4bd1b696-df4c0fb946159b6a.js:1:92679)\n    at ug (http://localhost:4200/_next/static/chunks/4bd1b696-df4c0fb946159b6a.js:1:116718)\n    at uh (http://localhost:4200/_next/static/chunks/4bd1b696-df4c0fb946159b6a.js:1:116380)\n    at ug (http://localhost:4200/_next/static/chunks/4bd1b696-df4c0fb946159b6a.js:1:116763)\n    at uh (http://localhost:4200/_next/static/chunks/4bd1b696-df4c0fb946159b6a.js:1:116380)"
+      ]
+    },
+    {
+      "at": "2026-09-08T03:55:28.057Z",
+      "messages": [
+        "[2026-09-08T03:55:28.010Z] [frontend/components/AppWrapper] AppWrapper error boundary caught an error::\n{\n  \"name\": \"Error\",\n  \"message\": \"Minified React error #185; visit https://react.dev/errors/185 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\",\n  \"stack\": \"Error: Minified React error #185; visit https://react.dev/errors/185 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\\n    at ry (http://localhost:4200/_next/static/chunks/4bd1b696-df4c0fb946159b6a.js:1:32375)\\n    at rh (http://localhost:4200/_next/static/chunks/4bd1b696-df4c0fb946159b6a.js:1:31899)\\n    at ow (http://localhost:4200/_next/static/chunks/4bd1b696-df4c0fb946159b6a.js:1:64867)\\n    at ok (http://localhost:4200/_next/static/chunks/4bd1b696-df4c0fb946159b6a.js:1:64470)\\n    at http://localhost:4200/_next/static/chunks/2496-e24197f8d2d02168.js:1:7809\\n    at ik (http://localhost:4200/_next/static/chunks/4bd1b696-df4c0fb946159b6a.js:1:92679)\\n    at ug (http://localhost:4200/_next/static/chunks/4bd1b696-df4c0fb946159b6a.js:1:116718)\\n    at uh (http://localhost:4200/_next/static/chunks/4bd1b696-df4c0fb946159b6a.js:1:116380)\\n    at ug (http://localhost:4200/_next/static/chunks/4bd1b696-df4c0fb946159b6a.js:1:116763)\\n    at uh (http://localhost:4200/_next/static/chunks/4bd1b696-df4c0fb946159b6a.js:1:116380)\"\n}"
+      ]
+    }
+  ]
+}

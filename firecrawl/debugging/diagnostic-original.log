@@ -1,0 +1,10 @@
+Running one project: jsdom
+PASS jsdom __tests__/frontend/components/FirecrawlSchemaDiagnostic.test.tsx (8.033 s)
+  ✓ renders and edits the captured Firecrawl scrape schema without an update loop (2923 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        10.182 s
+Ran all test suites matching __tests__/frontend/components/FirecrawlSchemaDiagnostic.test.tsx.
+DIAGNOSTIC_EXIT=0
