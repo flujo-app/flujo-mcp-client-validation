@@ -1,0 +1,23 @@
+{
+  "observedAt": "2026-09-08",
+  "client": "FLUJO",
+  "version": "3.45.2",
+  "tool": "search_stripe_documentation",
+  "toolCalls": 1,
+  "input": {
+    "question": "How do Stripe sandboxes keep testing separate from live payments?"
+  },
+  "outcome": "Successful result observed in FLUJO UI",
+  "rawWireTrace": false,
+  "evidenceMethod": "Concise transcription of observed browser result; see screenshot",
+  "documentUrls": [
+    "https://docs.stripe.com/sandboxes",
+    "https://docs.stripe.com/connect/testing",
+    "https://docs.stripe.com/testing-use-cases",
+    "https://docs.stripe.com/testing/overview",
+    "https://docs.stripe.com/testing"
+  ],
+  "subsequentClientFailure": "Tool selection cleared during refresh; after the captured result, interface showed The workspace hit a snag.",
+  "oauthTested": false,
+  "financialOperations": 0
+}

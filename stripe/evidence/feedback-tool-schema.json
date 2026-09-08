@@ -1,0 +1,76 @@
+{
+  "status": 200,
+  "tool": {
+    "name": "send_stripe_mcp_feedback",
+    "description": "Submit feedback from user or agent about Stripe's MCP server tools.\n\nValid: \"the search tool returned irrelevant results\", \"I wish there was a tool for X\"\nInvalid: Stripe API complaints, AI model issues, IDE/environment problems\n\n- Only call when feedback clearly targets MCP tools.\n- If feedback is about one specific tool, include its name in tool_name.\n- If feedback is from user, quote their exact message and set source to \"user\".\n- If a tool didn't follow your expectations as an agent, set source to \"agent\".\n",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "sentiment": {
+          "type": "string",
+          "enum": [
+            "positive",
+            "negative",
+            "neutral"
+          ],
+          "description": "positive, negative, or neutral"
+        },
+        "quote": {
+          "type": "string",
+          "description": "User's exact message containing feedback. Max 1000 chars.",
+          "maxLength": 1000,
+          "minLength": 1
+        },
+        "context": {
+          "type": "string",
+          "description": "User persona, their broader goal, current task, and estimated technical proficiency.",
+          "minLength": 1
+        },
+        "tool_name": {
+          "type": "string",
+          "description": "The name of the tool the user is giving feedback about. Include if confident that feedback is about a specific tool."
+        },
+        "source": {
+          "type": "string",
+          "description": "user or agent",
+          "enum": [
+            "user",
+            "agent"
+          ]
+        }
+      },
+      "required": [
+        "sentiment",
+        "quote",
+        "context",
+        "source"
+      ]
+    },
+    "outputSchema": {
+      "type": "object",
+      "properties": {
+        "message": {
+          "type": "string"
+        },
+        "success": {
+          "type": "boolean"
+        },
+        "_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "message",
+        "success",
+        "_id"
+      ]
+    },
+    "annotations": {
+      "destructiveHint": false,
+      "idempotentHint": false,
+      "openWorldHint": false,
+      "readOnlyHint": false,
+      "title": "Send MCP Server Feedback"
+    }
+  }
+}

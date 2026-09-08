@@ -41,6 +41,8 @@ No host browser, host files, or host credentials were used for installation or t
 
 - [Tavily](tavily/README.md): public keyless header, saved connection and one bounded search passed; other tools and authentication modes were not tested.
 
+- [Stripe](stripe/README.md): temporary sandbox authentication, nine-tool handshake and one documentation search passed; a subsequent FLUJO interface error is recorded separately.
+
 ## Prepared proposals
 
 [Supabase](proposals/supabase/README.md): concrete client-selector draft with scoped URL and React/Markdown checks. Hosted authentication is untested.

@@ -1,0 +1,13 @@
+{
+  "at": "2026-09-08T04:57:59.660Z",
+  "cliVersion": "1.50.10",
+  "attempts": 1,
+  "exitCode": 0,
+  "fallbackToLogin": false,
+  "timedOut": false,
+  "status": "provisioned",
+  "sandboxOnly": true,
+  "secretExposed": false,
+  "expiresAt": "2026-09-15",
+  "keyStoredInPrivateCLIProfile": true
+}

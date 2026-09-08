@@ -1,0 +1,13 @@
+{
+  "at": "2026-09-08T04:59:58.681Z",
+  "sandboxOnly": true,
+  "keyType": "temporary claimable sandbox",
+  "initializeStatus": 200,
+  "toolCalls": 0,
+  "protocolVersion": "2025-03-26",
+  "serverInfo": {
+    "name": "stripe-mcp",
+    "version": "1.0.0"
+  },
+  "sessionMetadataRemoved": true
+}
