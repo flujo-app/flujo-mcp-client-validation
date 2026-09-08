@@ -33,3 +33,5 @@ No host browser, host files, or host credentials were used for installation or t
 - [FastMCP](fastmcp/README.md): local stdio handshake and integer addition returned 5.
 - [Chrome DevTools](chrome-devtools/README.md): existing Chrome connection, page creation and accessibility snapshot passed.
 - [Firecrawl](firecrawl/README.md): keyless connection and search passed; scrape form crashes before invocation, so validation remains partial.
+
+- [Graphiti](graphiti/README.md): local HTTP handshake, FalkorDB status and seeded-episode retrieval passed with zero model API calls.

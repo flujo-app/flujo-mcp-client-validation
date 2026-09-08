@@ -10,3 +10,7 @@ In FLUJO's Tool Tester, `search_cloudflare_documentation` with query `How do I c
 
 No custom authorization headers, OAuth session, model provider, deployment or paid API call was used. No compatibility with other authenticated Cloudflare servers is inferred. These are unedited browser captures.
 
+
+## Documentation preview
+
+The completed production build was served on the cloud machine and visually reviewed. All six FLUJO steps, links, code spans, table-of-contents entry and neighboring sections rendered correctly. [Screenshot](local-preview.png). This is a locally served production build, not an upstream deployment preview.
