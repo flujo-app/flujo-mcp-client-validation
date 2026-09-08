@@ -22,4 +22,18 @@ Unedited screenshots: [handshake](connection.jpg), [tool inputs](file-inputs.jpg
 
 This verifies one authenticated remote read. Local transport, interactive OAuth, PAT-specific behavior, other toolsets and write operations remain untested.
 
-Proposal: https://github.com/github/github-mcp-server/issues/3247
+[Guide PR #3248](https://github.com/github/github-mcp-server/pull/3248), following [scenario issue #3247](https://github.com/github/github-mcp-server/issues/3247).
+
+
+## Repository validation
+
+All requested checks passed on PR head f3a794f727637086939f1e3742c5f3b3c1201eb8 in an isolated Debian cloud machine with Go 1.25.12:
+
+- go test -v ./...
+- script/test, which runs go test -race ./... (CGO_ENABLED=1)
+- script/lint, including pinned golangci-lint 2.9.0: zero issues
+- UPDATE_TOOLSNAPS=true go test ./...
+- script/generate-docs: no generated Markdown changes
+- git diff --check
+
+The snapshot-update command removed only a final newline from an existing unrelated tool snapshot. That formatting change was restored; final git status is clean. The PR contains only its 31 Markdown insertions.

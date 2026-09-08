@@ -41,6 +41,6 @@ The tool-result JSON is a concise transcription of the observed browser response
 
 Stripe documents [manual MCP setup](https://docs.stripe.com/mcp), [anonymous sandbox provisioning](https://docs.stripe.com/sandboxes?locale=en-US), and its [CLI implementation](https://github.com/stripe/stripe-cli/blob/master/pkg/cmd/sandbox.go). The official CLI npm package used was `@stripe/cli@1.50.10`.
 
-The MCP documentation page offers an anonymous page-feedback form: **Was this page helpful? → No → Couldn't find what I was looking for**. Its optional text field accepts a precise request about the missing FLUJO guide. Submission is pending until this evidence has a public URL. The alternative editorial email published on the page is **mcp@stripe.com**.
+The MCP documentation page offers an anonymous page-feedback form: **Was this page helpful? → No → Couldn't find what I was looking for**. Its optional text field accepts a precise request about the missing FLUJO guide. One submission attempt with this public evidence returned HTTP 429. The form collapsed without a confirmation, so delivery is unconfirmed; no immediate retry or workaround was attempted. The alternative editorial email published on the page is **mcp@stripe.com**.
 
 The discovered `send_stripe_mcp_feedback` tool accepts feedback about MCP tools only. Its description excludes IDE/environment issues, so it was not used for this client-guide request or the FLUJO UI error.

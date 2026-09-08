@@ -21,3 +21,5 @@ Primary setup reference: [official remote MCP documentation](https://docs.tavily
 ## Documentation contribution
 
 A 13-line README guide uses these tested UI steps and states the keyless limits. The README-only diff passes git diff --check; no runtime source or dependencies changed.
+
+Submitted [Tavily PR #214](https://github.com/tavily-ai/tavily-mcp/pull/214).
