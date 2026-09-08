@@ -44,3 +44,5 @@ Stripe documents [manual MCP setup](https://docs.stripe.com/mcp), [anonymous san
 The MCP documentation page offers an anonymous page-feedback form: **Was this page helpful? → No → Couldn't find what I was looking for**. Its optional text field accepts a precise request about the missing FLUJO guide. One submission attempt with this public evidence returned HTTP 429. The form collapsed without a confirmation, so delivery is unconfirmed; no immediate retry or workaround was attempted. The alternative editorial email published on the page is **mcp@stripe.com**.
 
 The discovered `send_stripe_mcp_feedback` tool accepts feedback about MCP tools only. Its description excludes IDE/environment issues, so it was not used for this client-guide request or the FLUJO UI error.
+
+[Exact attempted documentation request](evidence/docs-feedback-request.md) and [sanitized HTTP 429 receipt](evidence/docs-feedback-attempt.json). The form attempt is not counted as delivered.

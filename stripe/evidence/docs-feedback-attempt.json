@@ -1,0 +1,14 @@
+{
+  "route": "https://docs.stripe.com/mcp",
+  "endpoint": "https://docs.stripe.com/_endpoint/send-csat-feedback",
+  "responseStatus": 429,
+  "initiatorType": "fetch",
+  "startedAt": "2026-09-08T05:28:06.365Z",
+  "durationMs": 535.5,
+  "attempts": 1,
+  "formClosed": true,
+  "thankYouVisible": false,
+  "deliveryConfirmed": false,
+  "retryAfter": "Unavailable: response headers were not captured; no retry attempted",
+  "contact": "flujo.com.co@gmail.com"
+}
